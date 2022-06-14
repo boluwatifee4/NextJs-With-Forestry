@@ -1,4 +1,10 @@
 ---
 label: Allawe Prep
 hide_body: true
-fields: []
+fields:
+- name: my_first_forestry_template
+  type: text
+  config:
+    required: false
+  label: My first forestry template
+  description: hurrray
