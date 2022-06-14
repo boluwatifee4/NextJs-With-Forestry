@@ -8,3 +8,20 @@ fields:
     required: false
   label: My first forestry template
   description: hurrray
+- name: write_your_message
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Write your message
+- name: pages_section
+  type: blocks
+  label: Pages section
+  template_types:
+  - allawe-prep
+  config:
+    min: 
+    max: 
