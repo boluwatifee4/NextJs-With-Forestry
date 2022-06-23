@@ -1,4 +1,20 @@
 ---
 label: Blog
 hide_body: false
-fields: []
+fields:
+- name: my_heading
+  type: text
+  config:
+    required: false
+  label: My heading
+  description: This is where all heading goes
+- name: messages
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Messages
+  description: Write Your message
