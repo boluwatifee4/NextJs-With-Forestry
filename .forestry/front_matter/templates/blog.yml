@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: Messages
   description: Write Your message
+pages:
+- bima.md
