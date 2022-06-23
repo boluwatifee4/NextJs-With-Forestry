@@ -18,5 +18,11 @@ fields:
       format: markdown
   label: Messages
   description: Write Your message
+- name: images
+  type: file
+  config:
+    maxSize: 64
+  label: images
+  description: Add image
 pages:
 - bima.md
